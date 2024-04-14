@@ -10,6 +10,7 @@ import { AboutComponent } from './components/pages/about/about.component';
 import { SearchComponent } from './components/pages/search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FoodCardComponent } from './components/pages/home/food-card/food-card.component';
+import { SingleRecipeComponent } from './components/pages/single-recipe/single-recipe.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FoodCardComponent } from './components/pages/home/food-card/food-card.c
     HomeComponent,
     AboutComponent,
     SearchComponent,
-    FoodCardComponent
+    FoodCardComponent,
+    SingleRecipeComponent
   ],
   imports: [
     BrowserModule,
