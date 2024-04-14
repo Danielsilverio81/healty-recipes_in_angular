@@ -11,6 +11,8 @@ import { SearchComponent } from './components/pages/search/search.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FoodCardComponent } from './components/pages/home/food-card/food-card.component';
 import { SingleRecipeComponent } from './components/pages/single-recipe/single-recipe.component';
+import { SimilarRecipesComponent } from './components/pages/single-recipe/main-information/similar-recipes/similar-recipes.component';
+import { MainInformationComponent } from './components/pages/single-recipe/main-information/main-information.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { SingleRecipeComponent } from './components/pages/single-recipe/single-r
     AboutComponent,
     SearchComponent,
     FoodCardComponent,
-    SingleRecipeComponent
+    SingleRecipeComponent,
+    SimilarRecipesComponent,
+    MainInformationComponent
   ],
   imports: [
     BrowserModule,
