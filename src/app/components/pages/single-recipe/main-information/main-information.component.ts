@@ -11,7 +11,7 @@ import { finalize } from 'rxjs';
 export class MainInformationComponent implements OnInit {
   public loading: boolean = true;
   public recipeId: number = 1;
-  public food: any = [];
+  public food: any = {};
 
   @Output() recipeIdSimilar!: number;
 
